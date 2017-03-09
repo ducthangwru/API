@@ -47,5 +47,5 @@ class TaskRes(Resource):
 
         task.update(name=name1, local_id=local_id1, done=done1)
         edited_task = Task.objects().with_id(task_id)
-        
+
         return mlab.item2json(edited_task)
