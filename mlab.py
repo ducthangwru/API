@@ -1,8 +1,8 @@
 import mongoengine
-# mongodb://<dbuser>:<dbpassword>@ds051990.mlab.com:51990/api
-host = "ds051990.mlab.com"
-port = 51990
-db_name = "api"
+ #mongodb://<dbuser>:<dbpassword>@ds123400.mlab.com:23400/testapi
+host = "ds123400.mlab.com"
+port = 23400
+db_name = "testapi"
 username = "admin"
 password = "admin"
 
