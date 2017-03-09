@@ -4,8 +4,8 @@ import mongoengine
 host = "ds123400.mlab.com"
 port = 23400
 db_name = "testapi"
-username = "admin"
-password = "admin"
+username = "test"
+password = "test"
 
 
 def connect():
