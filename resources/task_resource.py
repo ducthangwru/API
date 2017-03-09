@@ -5,8 +5,8 @@ import mlab
 class TaskListRes(Resource):
     def get(self):
         tasks = Task.objects()
-        tasks_jon = mlab.item2json(tasks)
-        return tasks_jon
+        tasks_json = mlab.item2json(tasks)
+        return tasks_json
 
     def post(self):
         parser = reqparse.RequestParser()

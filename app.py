@@ -7,6 +7,7 @@ from resources.task_resource import *
 mlab.connect()
 app = Flask(__name__)
 api = Api(app)
+
 # all_tasks = Task.objects()
 # for task in all_tasks:
 #     print(mlab.item2json(task))
